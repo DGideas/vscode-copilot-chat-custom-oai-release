@@ -13,3 +13,11 @@ Do note that if you're using SSH remote development, you need to install the cop
 3. Click the "Views and more actions..."(`...`) button at the top
 4. Select "Install from VSIX..."
 5. Done!
+
+## Package your own VSIX
+Instead of using our release package, you can package your own VSIX file by doing the following:
+1. Clone the [VSCode Copilot Chat repo](https://github.com/microsoft/vscode-copilot-chat) to your local machine.
+2. Update extension version and VSCode version requirements in `package.json` and `package-lock.json`.
+3. Run `npm install`.
+4. In `package.json`, replace the `		"package": "vsce package",` line with `		"package": "vsce package --allow-package-all-secrets",`.
+5. Run `npm run compile && npm run package`.
