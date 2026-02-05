@@ -18,7 +18,7 @@ Do note that if you're using SSH remote development, you need to install the cop
 Instead of using our release package, you can package your own VSIX file by doing the following:
 1. Clone the [VSCode Copilot Chat repo](https://github.com/microsoft/vscode-copilot-chat) to your local machine.
 2. Update extension version and VSCode version requirements in `package.json` and `package-lock.json`.
-3. In `package.json`, find the `customoai` vendor entry in `languageModelChatProviders` (around line 1728) and remove the `when` condition:
+3. In `package.json`, find the `customoai` vendor entry in `languageModelChatProviders` (around line 1879) and remove the `when` condition:
    ```json
    {
        "vendor": "customoai",
