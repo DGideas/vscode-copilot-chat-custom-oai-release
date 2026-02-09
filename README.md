@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> From February 2026, we recommend using [OAI Compatible Provider for Copilot](https://marketplace.visualstudio.com/items?itemName=johnny-zhao.oai-compatible-copilot) from VSCode Marketplace. This repo will be deprecated soon.
+
 # VSCode Copilot Chat release for Custom OpenAI compatible model support
 ## What is this repo for?
 [VSCode Copilot Chat](https://github.com/microsoft/vscode-copilot-chat) extension is a companion extension that provides conversational AI assistance. It provides the Chat UI experience in Visual Studio Code. From VSCode version 1.104, Copilot chat starts supporting custom OpenAI compatible model, but can only be used in VSCode Insider version. From the [developer's message](https://github.com/microsoft/vscode-copilot-release/issues/7518#issuecomment-3386387767), this support will be held to insiders for the forseeable future. Since some developers need this custom OpenAI model support, this repo will periodically release the VSCode Copilot Chat VSIX extension package which adds the custom OAI model support.
